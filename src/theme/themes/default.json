@@ -1,0 +1,12 @@
+{
+    "token": {
+      "colorPrimary": "#1677ff",
+      "borderRadius": 6,
+      "fontFamily": "Arial, sans-serif"
+    },
+    "cssVars": {
+      "--brand-color": "#1677ff",
+      "--background": "#ffffff"
+    }
+  }
+  
