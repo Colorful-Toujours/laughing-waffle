@@ -1,0 +1,11 @@
+{
+    "token": {
+      "colorPrimary": "#722ed1",
+      "borderRadius": 8,
+      "fontFamily": "Segoe UI, sans-serif"
+    },
+    "cssVars": {
+      "--brand-color": "#722ed1",
+      "--background": "#141414"
+    }
+  }

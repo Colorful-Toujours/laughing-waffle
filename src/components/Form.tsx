@@ -238,6 +238,7 @@ export default function AdvancedSearch() {
   const values = Form.useWatch([], form);
 
   const data = useMemo(() => applyFilters(MOCK_DATA, values || {}), [values]);
+
   const tags = useMemo(() => toTags(values || {}), [values]);
 
   const columns = [
@@ -276,6 +277,7 @@ export default function AdvancedSearch() {
 
   const exportParams = () => {
     const v = form.getFieldsValue();
+   
     const params = new URLSearchParams();
     Object.entries(v).forEach(([k, val]) => {
       if (!val || (Array.isArray(val) && val.length === 0)) return;

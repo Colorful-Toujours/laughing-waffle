@@ -1,0 +1,11 @@
+{
+    "token": {
+      "colorPrimary": "#000000",
+      "borderRadius": 0,
+      "fontFamily": "Verdana, sans-serif"
+    },
+    "cssVars": {
+      "--brand-color": "#000000",
+      "--background": "#ffffff"
+    }
+  }
